@@ -1,0 +1,35 @@
+{
+  "alwaysdurable.midnightconfig.title": "AlwaysDurable",
+  "alwaysdurable.midnightconfig.showText": "Always show the durability tooltip",
+  "alwaysdurable.midnightconfig.changeTextColor": "Change the durability tooltip color",
+  "alwaysdurable.midnightconfig.changeDurabilityBar": "Change the durability bar colors",
+
+  "alwaysdurable.midnightconfig.textColorComment": "  Change the tooltip color based on durability",
+  "alwaysdurable.midnightconfig.def": "Default color for the tooltip",
+  "alwaysdurable.midnightconfig.veryhigh": "Very high durability",
+  "alwaysdurable.midnightconfig.high": "High durability",
+  "alwaysdurable.midnightconfig.medium": "Medium durability",
+  "alwaysdurable.midnightconfig.low": "Low durability",
+  "alwaysdurable.midnightconfig.verylow": "Very low durability",
+
+  "alwaysdurable.midnightconfig.barColorComment": "  Change the bar color based on durability",
+  "alwaysdurable.midnightconfig.start": "Max durability color",
+  "alwaysdurable.midnightconfig.end": "Min durability color",
+
+  "alwaysdurable.midnightconfig.enum.Colors.BLACK": "Black",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_BLUE": "Dark Blue",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_AQUA": "Dark Aqua",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_RED": "Dark Red",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_GREEN": "Dark Green",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_PURPLE": "Dark Purple",
+  "alwaysdurable.midnightconfig.enum.Colors.GOLD": "Gold",
+  "alwaysdurable.midnightconfig.enum.Colors.GRAY": "Gray",
+  "alwaysdurable.midnightconfig.enum.Colors.DARK_GRAY": "Dark Gray",
+  "alwaysdurable.midnightconfig.enum.Colors.BLUE": "Blue",
+  "alwaysdurable.midnightconfig.enum.Colors.GREEN": "Green",
+  "alwaysdurable.midnightconfig.enum.Colors.RED": "Red",
+  "alwaysdurable.midnightconfig.enum.Colors.AQUA": "Aqua",
+  "alwaysdurable.midnightconfig.enum.Colors.LIGHT_PURPLE": "Light Purple",
+  "alwaysdurable.midnightconfig.enum.Colors.YELLOW": "Yellow",
+  "alwaysdurable.midnightconfig.enum.Colors.WHITE": "White"
+}

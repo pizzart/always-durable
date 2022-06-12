@@ -1,38 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "alwaysdurable",
+  "version": "1.0.0",
+  "name": "AlwaysDurable",
+  "description": "Modify the durability bar and text to your liking",
   "authors": [
-    "Me!"
+    "PizzArt"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://pizzart.github.io"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
+  "license": "MIT",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "com.pibbium.alwaysdurable.AlwaysDurable"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "alwaysdurable.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.6",
-    "fabric": "*",
     "minecraft": "~1.18.2",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
