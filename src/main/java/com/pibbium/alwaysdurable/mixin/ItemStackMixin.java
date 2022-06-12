@@ -7,7 +7,7 @@ import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.MutableText;
-import net.minecraft.text.TranslatableText;
+import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
@@ -41,7 +41,7 @@ public class ItemStackMixin {
     private MutableText getDurTooltip(Boolean formatted) {
         int maxDmg = ((ItemStack) (Object) this).getMaxDamage();
         int durLeft = maxDmg - ((ItemStack) (Object) this).getDamage();
-        TranslatableText text = new TranslatableText("item.durability", durLeft, maxDmg);
+        MutableText text = Text.translatable("item.durability", durLeft, maxDmg);
         if (formatted) {
             Formatting color = Formatting.byColorIndex(AlwaysDurableConfig.def.ordinal());
             if (AlwaysDurableConfig.changeTextColor) {
