@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.awt.*;
-import java.lang.reflect.Array;
 
 @Mixin(Item.class)
 @Environment(EnvType.CLIENT)

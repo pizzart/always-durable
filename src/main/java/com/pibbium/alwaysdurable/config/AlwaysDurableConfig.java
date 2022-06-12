@@ -29,7 +29,8 @@ public class AlwaysDurableConfig extends MidnightConfig {
         WHITE,
     }
 
-    @Comment static Comment barColorComment;
+    @Comment
+    public static Comment barColorComment;
 
     @Entry(width = 7, min = 7, isColor = true)
     public static String start = "#00FF00", end = "#FF0000";
