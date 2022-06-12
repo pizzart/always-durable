@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pibbium.alwaysdurable.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ItemStackMixin",
+    "ItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
