@@ -3,12 +3,14 @@ package com.pibbium.alwaysdurable.config;
 import eu.midnightdust.lib.config.MidnightConfig;
 
 public class AlwaysDurableConfig extends MidnightConfig {
+    @Comment
+    public static Comment settingsComment;
     @Entry
     public static boolean showText = true, changeTextColor = true, changeDurabilityBar = true;
     @Comment
     public static Comment textColorComment;
     @Entry
-    public static Colors def = Colors.DARK_GRAY, veryhigh = Colors.GREEN, high = Colors.DARK_GREEN, medium = Colors.YELLOW, low = Colors.GOLD, verylow = Colors.RED;
+    public static Colors def = Colors.WHITE, veryhigh = Colors.GREEN, high = Colors.DARK_GREEN, medium = Colors.YELLOW, low = Colors.GOLD, verylow = Colors.RED;
 
     public enum Colors {
         BLACK,

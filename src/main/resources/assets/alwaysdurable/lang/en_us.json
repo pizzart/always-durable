@@ -1,5 +1,7 @@
 {
   "alwaysdurable.midnightconfig.title": "AlwaysDurable",
+
+  "alwaysdurable.midnightconfig.settingsComment": "  Basic settings",
   "alwaysdurable.midnightconfig.showText": "Always show the durability tooltip",
   "alwaysdurable.midnightconfig.changeTextColor": "Change the durability tooltip color",
   "alwaysdurable.midnightconfig.changeDurabilityBar": "Change the durability bar colors",
