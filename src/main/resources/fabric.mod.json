@@ -10,7 +10,8 @@
   "contact": {
     "homepage": "https://pizzart.github.io"
   },
-  "license": "MIT",
+  "license": "CC0-1.0",
+  "icon": "assets/alwaysdurable/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
